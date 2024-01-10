@@ -190,13 +190,11 @@ export function aboutTheGame(context) {
     20,
     context.canvas.height * 0.35
   );
-  // todo: change link
   context.fillText(
-    "Source code: github.com/LazareBoddaert/cours-redux-toolkit",
+    "Source code: github.com/LazareBoddaert/Space_Shooter_Game/",
     20,
     context.canvas.height * 0.45
   );
-  // todo: change link
   context.fillText(
     "Created by Lazare Boddaert | https://lazareboddaert.com/",
     20,
