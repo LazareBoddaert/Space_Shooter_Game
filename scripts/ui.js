@@ -116,7 +116,7 @@ export function defaultPauseMenu(context) {
   );
   context.font = "24px Verdana";
   context.fillText(
-    "Press 'I' to get infos about this game",
+    "Press 'I' to get more info about this game",
     context.canvas.width * 0.5,
     context.canvas.height * 0.9
   );
@@ -182,32 +182,32 @@ export function aboutTheGame(context) {
   context.textAlign = "left";
   context.fillText(
     "This game was created for learning purpose",
-    20,
+    14,
     context.canvas.height * 0.25
   );
   context.fillText(
     "It was build with HTML / CSS / Javascript",
-    20,
+    14,
     context.canvas.height * 0.35
   );
   context.fillText(
-    "Source code: github.com/LazareBoddaert/Space_Shooter_Game/",
-    20,
+    "Game code: github.com/LazareBoddaert/Space_Shooter_Game/",
+    14,
     context.canvas.height * 0.45
   );
   context.fillText(
     "Created by Lazare Boddaert | https://lazareboddaert.com/",
-    20,
+    14,
     context.canvas.height * 0.55
   );
   context.fillText(
     "Spaceships assets by: https://bevouliin.com",
-    20,
+    14,
     context.canvas.height * 0.65
   );
   context.fillText(
     "Sounds assets by: https://opengameart.org/",
-    20,
+    14,
     context.canvas.height * 0.75
   );
 
