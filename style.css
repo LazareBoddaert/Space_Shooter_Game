@@ -13,8 +13,8 @@ img {
 #canvasWrapper {
   display: flex;
   position: relative;
-  width: 100vw;
-  height: 100vh;
+  width: 100lvw;
+  height: 100lvh;
   align-items: center;
   justify-content: center;
 }
