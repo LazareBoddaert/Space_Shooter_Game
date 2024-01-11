@@ -131,11 +131,6 @@ export function mobilePauseMenu(context) {
   context.fillStyle = "white";
   context.textAlign = "left";
   context.fillText(
-    "Move: 'dvh'",
-    context.canvas.width * 0.5,
-    context.canvas.height * 0.1
-  );
-  context.fillText(
     "Move: 'Arrows'",
     context.canvas.width * 0.1,
     context.canvas.height * 0.2
