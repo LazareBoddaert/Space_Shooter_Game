@@ -12,7 +12,7 @@ class Enemy {
     this.bulletSpeedX = -5;
     this.bulletSpeedY = 0;
     this.bulletLeft = 2;
-    this.deathSound = new Audio("../assets/sounds/enemy-death.flac");
+    this.deathSound = new Audio("assets/sounds/enemy-death.flac");
     this.deathSound.volume = 0.6;
     this.markedForDeletion = false;
   }

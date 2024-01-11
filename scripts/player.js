@@ -13,7 +13,7 @@ export default class Player {
     this.x = 0;
     this.y = (this.game.height - this.height) * 0.5;
     this.image = playerImage;
-    this.hitSound = new Audio("../assets/sounds/player-hit.wav");
+    this.hitSound = new Audio("assets/sounds/player-hit.wav");
     this.hitSound.volume = 0.2;
     this.playerBulletController = new BulletController(
       this.game,
